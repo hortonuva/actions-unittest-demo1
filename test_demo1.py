@@ -15,7 +15,7 @@ class DemoTestCase(unittest.TestCase):
 #        break  # only here to trigger linter rule
 
     def test_list3_failes(self):
-        self.assertTrue( 9 in self.some_list )
+        self.assertTrue( 4 in self.some_list )
 
 
 if __name__ == '__main__':
